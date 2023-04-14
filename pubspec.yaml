@@ -35,6 +35,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   # flutter_native_splash: ^2.2.19
   google_fonts: ^4.0.3
+  # firebase database
+  cloud_firestore: ^4.5.0
+  firebase_core: ^2.9.0
 
 # flutter_native_splash: 
 #   background_image: "assets/splash/bg_img.png"

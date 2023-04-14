@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "753866048622",
+    "project_id": "croshez",
+    "storage_bucket": "croshez.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753866048622:android:51a9586525bd489a58927f",
+        "android_client_info": {
+          "package_name": "com.weoveri.capp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753866048622-8khdpt7qgt1jkvqujsd27ff07d73ahuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weoveri.capp",
+            "certificate_hash": "e34039e473aa9747a67cdec9f80d0072992f4ed6"
+          }
+        },
+        {
+          "client_id": "753866048622-p4ctqamo27rvcv4riv2acdn24ciuaaqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLAyL7fYGPVz-xhdvRHfsVNPNg6GfD35o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753866048622-p4ctqamo27rvcv4riv2acdn24ciuaaqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

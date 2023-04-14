@@ -12,6 +12,7 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
+      // use scaffold instead of container
       height: size.height,
       width: double.infinity,
       child: Stack(
