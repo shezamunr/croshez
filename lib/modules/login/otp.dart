@@ -16,7 +16,7 @@ class OTPScreen extends StatefulWidget {
 
 class _OTPScreenState extends State<OTPScreen> {
   final GlobalKey<ScaffoldState> _scaffoldkey = GlobalKey<ScaffoldState>();
-  String _verificationCode = '333333'; // change
+  late String _verificationCode; // change
 
   final TextEditingController _pinPutController = TextEditingController();
   final defaultPinTheme = PinTheme(
