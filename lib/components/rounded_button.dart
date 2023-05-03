@@ -4,8 +4,10 @@ class RoundedButton extends StatelessWidget {
   final String text;
   final VoidCallback? press;
   final Color color, textColor;
+  final EdgeInsets mPadding;
   const RoundedButton({
     Key? key,
+    this.mPadding = const EdgeInsets.all(0),
     this.text = "",
     this.press,
     this.color = Colors.red,

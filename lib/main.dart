@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:croshez/modules/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:croshez/modules/practice/rowcols.dart';
 
 // import 'firebase_options.dart';
 
@@ -25,5 +26,6 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
         ),
         home: SplashScreen());
+    // home: rowcols());
   }
 }

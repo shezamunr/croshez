@@ -40,6 +40,7 @@ dependencies:
   firebase_core: ^2.9.0
   pinput: ^2.2.31
   firebase_auth: ^4.4.1
+  package_info_plus: ^3.1.2
 
 # flutter_native_splash: 
 #   background_image: "assets/splash/bg_img.png"
