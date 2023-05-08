@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:croshez/main.dart';
 import 'package:croshez/modules/welcome_screen/welcome_screen.dart';
+import 'package:croshez/modules/practice/rowcols.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -17,7 +18,10 @@ class _SplashScreenState extends State<SplashScreen> {
 
     Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Welcome()));
+          // context, MaterialPageRoute(builder: (context) => const Welcome()));
+
+          context,
+          MaterialPageRoute(builder: (context) => const rowcols()));
     });
   }
 

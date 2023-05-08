@@ -65,7 +65,7 @@ class _OTPScreenState extends State<OTPScreen> {
 
                 await FirebaseAuth.instance
                     .signInWithCredential(PhoneAuthProvider.credential(
-                        verificationId: _verificationCode, smsCode: pin))
+                        verificationId: await _verificationCode, smsCode: pin))
                     .then((value) async {
                   final _val = value.user;
                   if (_val != null) {
@@ -142,13 +142,13 @@ class _OTPScreenState extends State<OTPScreen> {
         print("error msg ${e.message}");
       },
       codeSent: (String verificationID, int? resendToken) {
-        setState(() {
-          _verificationCode = verificationID;
+        setState(() async {
+          _verificationCode = await verificationID;
         });
       },
       codeAutoRetrievalTimeout: (String verificationID) {
-        setState(() {
-          _verificationCode = verificationID;
+        setState(() async {
+          _verificationCode = await verificationID;
         });
       },
       timeout: Duration(seconds: 60),
